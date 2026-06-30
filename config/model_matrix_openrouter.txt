@@ -1,0 +1,7 @@
+# One model id per line. Comments and blank lines are ignored.
+# Check OpenRouter for live/current IDs before publication-grade runs.
+
+anthropic/claude-sonnet-4.5
+openai/gpt-4.1-mini
+google/gemini-2.5-pro
+meta-llama/llama-4-maverick

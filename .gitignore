@@ -1,0 +1,15 @@
+# Local secrets / API keys
+config/openrouter.local.env
+config/*.local.env
+*.local.env
+.env
+.env.*
+
+# Generated run outputs
+runs/
+eval/model_evaluator_runs/
+
+# Python noise
+__pycache__/
+*.py[cod]
+.pytest_cache/

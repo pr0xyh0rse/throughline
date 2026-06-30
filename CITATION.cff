@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use or discuss this public dev-calibration package, please cite it as below and do not describe it as a final hidden-holdout benchmark or leaderboard."
+title: "Throughline: public dev-preview / dev-calibration package"
+type: dataset
+authors:
+  - name: "pr0xyh0rse - Hannah Bird"
+year: 2026
+date-released: "2026-06-26"
+license: "CC-BY-4.0"
+abstract: >-
+  Throughline is a public dev-preview / dev-calibration package for testing
+  whether story-generation models preserve live narrative state while writing
+  or revising. The package includes public/dev-visible prompts, rubrics,
+  manifests, scoring templates, source notes, runner scaffolding, and final-eval
+  lane policy. It is not a final hidden-holdout evaluation, leaderboard, or
+  release-grade model-ranking artifact.
+keywords:
+  - language-model-evaluation
+  - narrative-generation
+  - benchmark-calibration
+  - creative-writing-evaluation
+  - dev-calibration

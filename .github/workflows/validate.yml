@@ -1,0 +1,57 @@
+name: Validate Throughline package
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validate benchmark manifests and dev/final lanes
+        run: python3 scripts/validate_benchmark_manifests.py --root . --warnings-as-errors
+
+      - name: Check shell runner syntax
+        run: bash -n scripts/run_probe1_openrouter_matrix.sh
+
+      - name: Verify MANIFEST.csv hashes
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import csv
+          import hashlib
+          import sys
+
+          root = Path('.')
+          errors = []
+          with (root / 'MANIFEST.csv').open(newline='', encoding='utf-8') as f:
+              rows = list(csv.DictReader(f))
+
+          for row in rows:
+              rel = row['path']
+              path = root / rel
+              if not path.exists():
+                  errors.append(f'missing: {rel}')
+                  continue
+              data = path.read_bytes()
+              if str(len(data)) != row['bytes']:
+                  errors.append(f'byte mismatch: {rel}')
+              if hashlib.sha256(data).hexdigest() != row['sha256']:
+                  errors.append(f'sha256 mismatch: {rel}')
+
+          if errors:
+              for error in errors:
+                  print(error)
+              sys.exit(1)
+
+          print(f'MANIFEST.csv verified: {len(rows)} files')
+          PY

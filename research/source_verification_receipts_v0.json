@@ -1,0 +1,366 @@
+{
+  "fetch_log": "WritingBench\thttps://arxiv.org/abs/2503.05244\t200\t47225\thttps://arxiv.org/abs/2503.05244\nEQ-Bench_Longform_Creative_Writing\thttps://eqbench.com/creative_writing_longform.html\t200\t22497\thttps://eqbench.com/creative_writing_longform.html\nConStory-Bench\thttps://arxiv.org/abs/2603.05890\t200\t46592\thttps://arxiv.org/abs/2603.05890\nLongGenBench\thttps://arxiv.org/abs/2409.02076\t200\t46041\thttps://arxiv.org/abs/2409.02076\nTowards_A_Novel_Benchmark\thttps://aclanthology.org/2025.findings-acl.1114/\t200\t39433\thttps://aclanthology.org/2025.findings-acl.1114/\nNoCha_One_Thousand_and_One_Pairs\thttps://arxiv.org/abs/2406.16264\t200\t47600\thttps://arxiv.org/abs/2406.16264\nRoleLLM\thttps://aclanthology.org/2024.findings-acl.878/\t200\t46090\thttps://aclanthology.org/2024.findings-acl.878/\nCharacterBox\thttps://arxiv.org/abs/2412.05631\t200\t47596\thttps://arxiv.org/abs/2412.05631\nIFEval\thttps://arxiv.org/abs/2311.07911\t200\t46768\thttps://arxiv.org/abs/2311.07911\nRewriteLM_OpenRewriteEval\thttps://arxiv.org/abs/2305.15685\t200\t47149\thttps://arxiv.org/abs/2305.15685\n",
+  "verified": {
+    "WritingBench": {
+      "title": "WritingBench: A Comprehensive Benchmark for Generative Writing",
+      "authors": [
+        "Wu, Yuning",
+        "Mei, Jiahao",
+        "Yan, Ming",
+        "Li, Chenliang",
+        "Lai, Shaopeng",
+        "Ren, Yuran",
+        "Wang, Zijia",
+        "Zhang, Ji",
+        "Wu, Mengyue",
+        "Jin, Qin",
+        "Huang, Fei"
+      ],
+      "year": "2025",
+      "date": "2025/03/07",
+      "abstract": "omitted_in_public_preview__see_source_url_or_doi",
+      "categories": [],
+      "source_kind": "arxiv_abs",
+      "arxiv_id": "2503.05244",
+      "url": "https://arxiv.org/abs/2503.05244",
+      "fetch_file": "<local_fetch_cache>/WritingBench.html",
+      "status": "abstract_verified"
+    },
+    "EQ-Bench Longform Creative Writing": {
+      "title": "EQ-Bench Longform Creative Writing Leaderboard",
+      "authors": [],
+      "year": "2025",
+      "date": "",
+      "abstract": "omitted_in_public_preview__see_source_url_or_doi",
+      "categories": [],
+      "source_kind": "benchmark_page",
+      "url": "https://eqbench.com/creative_writing_longform.html",
+      "fetch_file": "<local_fetch_cache>/EQ-Bench_Longform_Creative_Writing.html",
+      "status": "source_page_verified"
+    },
+    "ConStory-Bench": {
+      "title": "Lost in Stories: Consistency Bugs in Long Story Generation by LLMs",
+      "authors": [
+        "Li, Junjie",
+        "Guo, Xinrui",
+        "Wu, Yuhao",
+        "Lee, Roy Ka-Wei",
+        "Li, Hongzhi",
+        "Xie, Yutao"
+      ],
+      "year": "2026",
+      "date": "2026/03/06",
+      "abstract": "omitted_in_public_preview__see_source_url_or_doi",
+      "categories": [],
+      "source_kind": "arxiv_abs",
+      "arxiv_id": "2603.05890",
+      "url": "https://arxiv.org/abs/2603.05890",
+      "fetch_file": "<local_fetch_cache>/ConStory-Bench.html",
+      "status": "abstract_verified"
+    },
+    "LongGenBench": {
+      "title": "LongGenBench: Benchmarking Long-Form Generation in Long Context LLMs",
+      "authors": [
+        "Wu, Yuhao",
+        "Hee, Ming Shan",
+        "Hu, Zhiqing",
+        "Lee, Roy Ka-Wei"
+      ],
+      "year": "2024",
+      "date": "2024/09/03",
+      "abstract": "omitted_in_public_preview__see_source_url_or_doi",
+      "categories": [],
+      "source_kind": "arxiv_abs",
+      "arxiv_id": "2409.02076",
+      "url": "https://arxiv.org/abs/2409.02076",
+      "fetch_file": "<local_fetch_cache>/LongGenBench.html",
+      "status": "abstract_verified"
+    },
+    "Towards A “Novel” Benchmark": {
+      "title": "Towards A “Novel” Benchmark: Evaluating Literary Fiction with Large Language Models",
+      "authors": [],
+      "year": "",
+      "date": "",
+      "abstract": "omitted_in_public_preview__see_source_url_or_doi",
+      "categories": [],
+      "source_kind": "acl_anthology",
+      "url": "https://aclanthology.org/2025.findings-acl.1114/",
+      "fetch_file": "<local_fetch_cache>/Towards_A_Novel_Benchmark.html",
+      "status": "abstract_verified"
+    },
+    "NoCha / One Thousand and One Pairs": {
+      "title": "One Thousand and One Pairs: A \"novel\" challenge for long-context language models",
+      "authors": [
+        "Karpinska, Marzena",
+        "Thai, Katherine",
+        "Lo, Kyle",
+        "Goyal, Tanya",
+        "Iyyer, Mohit"
+      ],
+      "year": "2024",
+      "date": "2024/06/24",
+      "abstract": "omitted_in_public_preview__see_source_url_or_doi",
+      "categories": [],
+      "source_kind": "arxiv_abs",
+      "arxiv_id": "2406.16264",
+      "url": "https://arxiv.org/abs/2406.16264",
+      "fetch_file": "<local_fetch_cache>/NoCha_One_Thousand_and_One_Pairs.html",
+      "status": "abstract_verified"
+    },
+    "RoleLLM": {
+      "title": "RoleLLM: Benchmarking, Eliciting, and Enhancing Role-Playing Abilities of Large Language Models",
+      "authors": [],
+      "year": "",
+      "date": "",
+      "abstract": "omitted_in_public_preview__see_source_url_or_doi",
+      "categories": [],
+      "source_kind": "acl_anthology",
+      "url": "https://aclanthology.org/2024.findings-acl.878/",
+      "fetch_file": "<local_fetch_cache>/RoleLLM.html",
+      "status": "abstract_verified"
+    },
+    "CharacterBox": {
+      "title": "CharacterBox: Evaluating the Role-Playing Capabilities of LLMs in Text-Based Virtual Worlds",
+      "authors": [
+        "Wang, Lei",
+        "Lian, Jianxun",
+        "Huang, Yi",
+        "Dai, Yanqi",
+        "Li, Haoxuan",
+        "Chen, Xu",
+        "Xie, Xing",
+        "Wen, Ji-Rong"
+      ],
+      "year": "2024",
+      "date": "2024/12/07",
+      "abstract": "omitted_in_public_preview__see_source_url_or_doi",
+      "categories": [],
+      "source_kind": "arxiv_abs",
+      "arxiv_id": "2412.05631",
+      "url": "https://arxiv.org/abs/2412.05631",
+      "fetch_file": "<local_fetch_cache>/CharacterBox.html",
+      "status": "abstract_verified"
+    },
+    "IFEval": {
+      "title": "Instruction-Following Evaluation for Large Language Models",
+      "authors": [
+        "Zhou, Jeffrey",
+        "Lu, Tianjian",
+        "Mishra, Swaroop",
+        "Brahma, Siddhartha",
+        "Basu, Sujoy",
+        "Luan, Yi",
+        "Zhou, Denny",
+        "Hou, Le"
+      ],
+      "year": "2023",
+      "date": "2023/11/14",
+      "abstract": "omitted_in_public_preview__see_source_url_or_doi",
+      "categories": [],
+      "source_kind": "arxiv_abs",
+      "arxiv_id": "2311.07911",
+      "url": "https://arxiv.org/abs/2311.07911",
+      "fetch_file": "<local_fetch_cache>/IFEval.html",
+      "status": "abstract_verified"
+    },
+    "RewriteLM / OpenRewriteEval": {
+      "title": "RewriteLM: An Instruction-Tuned Large Language Model for Text Rewriting",
+      "authors": [
+        "Shu, Lei",
+        "Luo, Liangchen",
+        "Hoskere, Jayakumar",
+        "Zhu, Yun",
+        "Liu, Yinxiao",
+        "Tong, Simon",
+        "Chen, Jindong",
+        "Meng, Lei"
+      ],
+      "year": "2023",
+      "date": "2023/05/25",
+      "abstract": "omitted_in_public_preview__see_source_url_or_doi",
+      "categories": [],
+      "source_kind": "arxiv_abs",
+      "arxiv_id": "2305.15685",
+      "url": "https://arxiv.org/abs/2305.15685",
+      "fetch_file": "<local_fetch_cache>/RewriteLM_OpenRewriteEval.html",
+      "status": "abstract_verified"
+    }
+  },
+  "fetch_log_more": "NarrativeQA\thttps://github.com/google-deepmind/narrativeqa\t200\t269414\thttps://github.com/google-deepmind/narrativeqa\nNovelQA\thttps://arxiv.org/abs/2403.12766\t200\t47678\thttps://arxiv.org/abs/2403.12766\nLongBench\thttps://arxiv.org/abs/2308.14508\t200\t48905\thttps://arxiv.org/abs/2308.14508\nRULER\thttps://arxiv.org/abs/2404.06654\t200\t47707\thttps://arxiv.org/abs/2404.06654\nCharacterEval\thttps://arxiv.org/abs/2401.01275\t200\t46127\thttps://arxiv.org/abs/2401.01275\nBigToM\thttps://arxiv.org/abs/2306.15448\t200\t46643\thttps://arxiv.org/abs/2306.15448\nSWE-bench_Verified\thttps://openai.com/index/introducing-swe-bench-verified/\t403\t9769\thttps://openai.com/index/introducing-swe-bench-verified/\ntau-bench\thttps://arxiv.org/abs/2406.12045\t200\t45019\thttps://arxiv.org/abs/2406.12045\nBFCL\thttps://gorilla.cs.berkeley.edu/leaderboard.html\t200\t16207\thttps://gorilla.cs.berkeley.edu/leaderboard.html\nGAIA\thttps://arxiv.org/abs/2311.12983\t200\t45702\thttps://arxiv.org/abs/2311.12983\n",
+  "verified_more": {
+    "NarrativeQA": {
+      "title": "GitHub - google-deepmind/narrativeqa: This repository contains the NarrativeQA dataset. It includes the list of documents with Wikipedia summaries, links to full stories, and questions and answers.",
+      "authors": [],
+      "date": "",
+      "year": "",
+      "abstract": "omitted_in_public_preview__see_source_url_or_doi",
+      "source_kind": "github_repo",
+      "status": "source_page_verified",
+      "url": "https://github.com/google-deepmind/narrativeqa"
+    },
+    "NovelQA": {
+      "title": "NovelQA: Benchmarking Question Answering on Documents Exceeding 200K Tokens",
+      "authors": [
+        "Wang, Cunxiang",
+        "Ning, Ruoxi",
+        "Pan, Boqi",
+        "Wu, Tonghui",
+        "Guo, Qipeng",
+        "Deng, Cheng",
+        "Bao, Guangsheng",
+        "Hu, Xiangkun",
+        "Zhang, Zheng",
+        "Wang, Qian",
+        "Zhang, Yue"
+      ],
+      "date": "2024/03/18",
+      "year": "2024",
+      "abstract": "omitted_in_public_preview__see_source_url_or_doi",
+      "source_kind": "arxiv_abs",
+      "arxiv_id": "2403.12766",
+      "status": "abstract_verified",
+      "url": "https://arxiv.org/abs/2403.12766"
+    },
+    "LongBench": {
+      "title": "LongBench: A Bilingual, Multitask Benchmark for Long Context Understanding",
+      "authors": [
+        "Bai, Yushi",
+        "Lv, Xin",
+        "Zhang, Jiajie",
+        "Lyu, Hongchang",
+        "Tang, Jiankai",
+        "Huang, Zhidian",
+        "Du, Zhengxiao",
+        "Liu, Xiao",
+        "Zeng, Aohan",
+        "Hou, Lei",
+        "Dong, Yuxiao",
+        "Tang, Jie",
+        "Li, Juanzi"
+      ],
+      "date": "2023/08/28",
+      "year": "2023",
+      "abstract": "omitted_in_public_preview__see_source_url_or_doi",
+      "source_kind": "arxiv_abs",
+      "arxiv_id": "2308.14508",
+      "status": "abstract_verified",
+      "url": "https://arxiv.org/abs/2308.14508"
+    },
+    "RULER": {
+      "title": "RULER: What's the Real Context Size of Your Long-Context Language Models?",
+      "authors": [
+        "Hsieh, Cheng-Ping",
+        "Sun, Simeng",
+        "Kriman, Samuel",
+        "Acharya, Shantanu",
+        "Rekesh, Dima",
+        "Jia, Fei",
+        "Zhang, Yang",
+        "Ginsburg, Boris"
+      ],
+      "date": "2024/04/09",
+      "year": "2024",
+      "abstract": "omitted_in_public_preview__see_source_url_or_doi",
+      "source_kind": "arxiv_abs",
+      "arxiv_id": "2404.06654",
+      "status": "abstract_verified",
+      "url": "https://arxiv.org/abs/2404.06654"
+    },
+    "CharacterEval": {
+      "title": "CharacterEval: A Chinese Benchmark for Role-Playing Conversational Agent Evaluation",
+      "authors": [
+        "Tu, Quan",
+        "Fan, Shilong",
+        "Tian, Zihang",
+        "Yan, Rui"
+      ],
+      "date": "2024/01/02",
+      "year": "2024",
+      "abstract": "omitted_in_public_preview__see_source_url_or_doi",
+      "source_kind": "arxiv_abs",
+      "arxiv_id": "2401.01275",
+      "status": "abstract_verified",
+      "url": "https://arxiv.org/abs/2401.01275"
+    },
+    "BigToM": {
+      "title": "Understanding Social Reasoning in Language Models with Language Models",
+      "authors": [
+        "Gandhi, Kanishk",
+        "Fränken, Jan-Philipp",
+        "Gerstenberg, Tobias",
+        "Goodman, Noah D."
+      ],
+      "date": "2023/06/21",
+      "year": "2023",
+      "abstract": "omitted_in_public_preview__see_source_url_or_doi",
+      "source_kind": "arxiv_abs",
+      "arxiv_id": "2306.15448",
+      "status": "abstract_verified",
+      "url": "https://arxiv.org/abs/2306.15448"
+    },
+    "SWE-bench Verified": {
+      "title": "",
+      "authors": [],
+      "date": "",
+      "year": "",
+      "abstract": "omitted_in_public_preview__see_source_url_or_doi",
+      "source_kind": "blocked_web_page",
+      "status": "fetch_blocked_403",
+      "url": "https://openai.com/index/introducing-swe-bench-verified/"
+    },
+    "tau-bench": {
+      "title": "$\\tau$-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+      "authors": [
+        "Yao, Shunyu",
+        "Shinn, Noah",
+        "Razavi, Pedram",
+        "Narasimhan, Karthik"
+      ],
+      "date": "2024/06/17",
+      "year": "2024",
+      "abstract": "omitted_in_public_preview__see_source_url_or_doi",
+      "source_kind": "arxiv_abs",
+      "arxiv_id": "2406.12045",
+      "status": "abstract_verified",
+      "url": "https://arxiv.org/abs/2406.12045"
+    },
+    "Berkeley Function Calling Leaderboard / BFCL": {
+      "title": "Berkeley Function Calling Leaderboard (BFCL) V4",
+      "authors": [],
+      "date": "",
+      "year": "",
+      "abstract": "omitted_in_public_preview__see_source_url_or_doi",
+      "source_kind": "benchmark_page",
+      "status": "source_page_verified",
+      "url": "https://gorilla.cs.berkeley.edu/leaderboard.html"
+    },
+    "GAIA": {
+      "title": "GAIA: a benchmark for General AI Assistants",
+      "authors": [
+        "Mialon, Grégoire",
+        "Fourrier, Clémentine",
+        "Swift, Craig",
+        "Wolf, Thomas",
+        "LeCun, Yann",
+        "Scialom, Thomas"
+      ],
+      "date": "2023/11/21",
+      "year": "2023",
+      "abstract": "omitted_in_public_preview__see_source_url_or_doi",
+      "source_kind": "arxiv_abs",
+      "arxiv_id": "2311.12983",
+      "status": "abstract_verified",
+      "url": "https://arxiv.org/abs/2311.12983"
+    }
+  },
+  "verified_more2": {
+    "SWE-bench Verified": {
+      "url": "https://www.swebench.com/",
+      "title": "SWE-bench Leaderboards",
+      "status": "source_page_verified",
+      "source_kind": "benchmark_page",
+      "abstract": "omitted_in_public_preview__see_source_url_or_doi",
+      "fetch_file": "<local_fetch_cache>/SWE-bench.html"
+    }
+  }
+}
